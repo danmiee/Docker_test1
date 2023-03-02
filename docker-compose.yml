@@ -5,7 +5,7 @@ services:
     container_name: react
     image: 'upcoderk/react-image'
     build:
-      context: Front_end
+      context: K-Digital_pjt_front
       dockerfile: dockerfile
     ports:
       - 3000:3000
@@ -14,7 +14,7 @@ services:
     container_name: spring
     image: 'upcoderk/myapp'
     build:
-      context: Back
+      context: K-Digital_pjt_back
       dockerfile: dockerfile
     ports:
       - 8080:8080
